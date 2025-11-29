@@ -126,6 +126,16 @@ def run_yolov_5_7(
     device = select_device(device)
     model = DetectMultiBackend(weights, device=device, dnn=dnn, data=data, fp16=half)
     stride, names, pt = model.stride, model.names, model.pt
+
+    def _class_name(idx):
+        if isinstance(names, dict):
+            return names.get(idx, f'id_{idx}')
+        if isinstance(names, (list, tuple)):
+            return names[idx] if 0 <= idx < len(names) else f'id_{idx}'
+        try:
+            return names[int(idx)]
+        except Exception:
+            return f'id_{idx}'
     imgsz = check_img_size(imgsz, s=stride)  # check image size
 
     # Dataloader
@@ -187,10 +197,8 @@ def run_yolov_5_7(
                 # Print results
                 for c in det[:, 5].unique():
                     n = (det[:, 5] == c).sum()  # detections per class
-                    if int(c) in names:  # add to string
-                          s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "
-                    else:
-                          s += f"{n} Unknown{'s' * (n > 1)}, "
+                    class_name = _class_name(int(c))
+                    s += f"{n} {class_name}{'s' * (n > 1)}, "
                 # Write results
                 for *xyxy, conf, cls in reversed(det):
                     if save_txt:  # Write to file
@@ -211,11 +219,12 @@ def run_yolov_5_7(
                         elif hide_conf == "True":
                             hide_conf = True
                     
-                        label =  None if hide_labels else (names[c] if hide_conf else f'{names[c]} {conf:.2f}')
-                    
+                        class_name = _class_name(c)
+                        label =  None if hide_labels else (class_name if hide_conf else f'{class_name} {conf:.2f}')
+
                         annotator.box_label(xyxy, label, color=colors(c, True))
                     if save_crop:
-                        save_one_box(xyxy, imc, file=save_dir / 'crops' / names[c] / f'{p.stem}.jpg', BGR=True)
+                        save_one_box(xyxy, imc, file=save_dir / 'crops' / _class_name(c) / f'{p.stem}.jpg', BGR=True)
 
             # Stream results
             im0 = annotator.result()
@@ -628,8 +637,9 @@ def image_demo(predictor, vis_folder, path, current_time, save_result):
 
             # save defects information
             image_name_prefix = os.path.basename(image_name).split(".")[0]
-            os.makedirs(os.path.join(save_dir, "label"))
-            with open(os.path.join(save_dir, "label/" + image_name_prefix + ".txt"), mode="w") as f:
+            labels_dir = os.path.join(save_dir, "labels")
+            os.makedirs(labels_dir, exist_ok=True)
+            with open(os.path.join(labels_dir, image_name_prefix + ".txt"), mode="w") as f:
                 for d_i in defect_info:
                     for i in range(len(d_i)):
                         f.write(str(d_i[i]) + " ")
@@ -637,7 +647,7 @@ def image_demo(predictor, vis_folder, path, current_time, save_result):
             f.close()
             # 将label文件夹下的txt文件生成相应的excel文件
             print("===============generate excel process is starting!=====================")
-            TEXT_PATH = str(str(save_dir / 'labels'))
+            TEXT_PATH = str(save_dir / 'labels')
             all_content_dict = get_files_dict(TEXT_PATH=TEXT_PATH)
             files_max_PL_list, files_max_Deformation_list, files_max_TJ_list, files_max_CK_list, files_max_Obstacle_list, files_max_CJ_list = find_max_proportion_lists(
                 all_content_dict, defect_img=path)

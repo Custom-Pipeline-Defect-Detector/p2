@@ -313,7 +313,9 @@ def detect():
                           device=yx_c["device"], tsize=int(yx_c["tsize"]))
             else:
                 print("Defect detection using default parameters")
-                if result_model["model_type"] == "YOLOv5":
+                if result_model["model_type"] in ("EfficientNet-YOLOv8", "YOLOv8-EfficientNet"):
+                    run_yolov_5_7(source=upload_file_path, yolo_version=8)
+                elif result_model["model_type"] == "YOLOv5":
                     run_yolov_5_7(source=upload_file_path, yolo_version=5)
                 elif result_model["model_type"] == "YOLOX":
                     run_yolox(path=upload_file_path)
@@ -321,8 +323,6 @@ def detect():
                     run_faster_rcnn(source=upload_file_path)
                 elif result_model["model_type"] == "YOLOv7":
                     run_yolov_5_7(source=upload_file_path, yolo_version=7)
-                elif result_model["model_type"] == "YOLOv8":  # Added this line
-                    run_yolov_5_7(source=upload_file_path, yolo_version=8)  # Changed yolo_version to 8
                 else:
                     run_yolov_5_7(source=upload_file_path, yolo_version=7)
             # while os.path.getsize('./inference/output/identify_image.txt') == 0:  # identify_image.txt中保存了图像检测结构的保存路径
