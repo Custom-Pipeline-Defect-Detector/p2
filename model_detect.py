@@ -101,7 +101,7 @@ def run_yolov_5_7(
     save_path = " "
 
     if yolo_version == 8:
-        weights = ROOT / 'runs/train/exp/weights/yolov5_best_latest_20230224.pt'
+        weights = ROOT / 'runs/train126/weights/last.pt'
     else:
         weights = ROOT / 'runs/train126/weights/best.pt'
 

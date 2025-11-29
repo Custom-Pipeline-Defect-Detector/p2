@@ -32,7 +32,7 @@ y57_c = {}
 kf_c = {}
 fr_c = {}
 yx_c = {}
-index_version = "index_cn.html"  # 默认语言
+index_version = "index_en.html"  # 默认语言
 
 
 @app.route('/disease-detection/diseaseAnalysis', methods=['POST', 'OPTIONS'])
