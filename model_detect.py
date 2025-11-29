@@ -67,7 +67,7 @@ ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 # yolov5 yolov7
 def run_yolov_5_7(
         # weights=ROOT / 'runs/train/exp/weights/yolov5_best_latest_20230224.pt',  # model path or triton URL
-        weights=ROOT / 'runs/train126/weights/best.pt', # model path or triton URL
+        weights=None, # model path or triton URL
         source=ROOT / 'data/images',  # file/dir/URL/glob/screen/0(webcam)
         data=ROOT / 'data/config.yaml',  # dataset.yaml path
         imgsz=(640, 640),  # inference size (height, width)
@@ -96,14 +96,12 @@ def run_yolov_5_7(
         vid_stride=1,  # video frame-rate stride
         yolo_version=7
 ):
-    if weights == "":
-        weights = ROOT / 'runs/train126/weights/best.pt'
+    if not weights:
+        if yolo_version == 8:
+            weights = ROOT / 'runs/train126/weights/last.pt'
+        else:
+            weights = ROOT / 'runs/train126/weights/best.pt'
     save_path = " "
-
-    if yolo_version == 8:
-        weights = ROOT / 'runs/train/exp/weights/yolov5_best_latest_20230224.pt'
-    else:
-        weights = ROOT / 'runs/train126/weights/best.pt'
 
     source = str(source)
     print("source:",source)
