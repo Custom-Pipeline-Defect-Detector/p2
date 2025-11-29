@@ -2,13 +2,17 @@
 # neo4j载入owl CALL semantics.importRDF('file:///C:/Users/50563/Desktop/pipe.turtle', 'RDF/XML',{handleVocabUris: "IGNORE"})
 import base64
 import io
+import os
+
 from flask import Flask, render_template, request, redirect, url_for, make_response
+from flask_cors import CORS, cross_origin
 from keyFrame.key_frame_detector import keyframeDetection
+from PIL import Image
 import glob
 import json
+
 from model_detect import *
 from jpype_drools import *
-from flask_cors import CORS, cross_origin
 from ultralytics import YOLO
 
 # 开启jvm,用于运行drools
@@ -27,12 +31,22 @@ upload_files_path = []
 identify_images = []
 keyFramesIndices = []
 neo4j_data = None
-yolov8_config = {}
+yolov8_config = {
+    "weights": "runs/train126/weights/last.pt",
+    "imgsz": ["640", "640"],
+    "conf_thres": "0.25",
+    "iou_thres": "0.45",
+    "device": "0",
+    "line_thickness": "3",
+    "hide_labels": "False",
+    "hide_conf": "False",
+    "classes": None,
+}
 y57_c = {}
 kf_c = {}
 fr_c = {}
 yx_c = {}
-index_version = "index_cn.html"  # 默认语言
+index_version = "index_en.html"  # 默认语言
 
 
 @app.route('/disease-detection/diseaseAnalysis', methods=['POST', 'OPTIONS'])
@@ -146,23 +160,24 @@ def refresh():
     # return render_template(index_version, upload_files_path=upload_files_path,identify_images=identify_images,advice_list=advice_list,VIDEO_FLAG=VIDEO_FLAG)
     return redirect(url_for('index'))
 
-app.route('/yolov8_configuration', methods=['POST'])
-def yolov57_configuration():
+@app.route('/yolov8_configuration', methods=['POST'])
+def yolov8_configuration():
     global yolov8_config
     result = request.form
-    weights = result.get("yolov8_weights")
+    weights = result.get("yolov8_weights") or yolov8_config["weights"]
 
-    imgsz = result.get("imgsz")
-    imgsz = imgsz.replace("(", "")
-    imgsz = imgsz.replace(")", "")
-    imgsz = imgsz.strip().split(',')
+    imgsz = result.get("imgsz", "")
+    imgsz = imgsz.replace("(", "").replace(")", "").strip()
+    imgsz = imgsz.split(',') if imgsz else yolov8_config["imgsz"]
 
-    conf_thres = result.get("conf_thres")
-    iou_thres = result.get("iou_thres")
-    device = result.get("device")
-    line_thickness = result.get("line_thickness")
-    hide_labels = result.get("hide_labels")
-    hide_conf = result.get("hide_conf")
+    conf_thres = result.get("conf_thres") or yolov8_config["conf_thres"]
+    iou_thres = result.get("iou_thres") or yolov8_config["iou_thres"]
+    device = result.get("device") or yolov8_config["device"]
+    line_thickness = result.get("line_thickness") or yolov8_config["line_thickness"]
+    hide_labels = result.get("hide_labels") or yolov8_config["hide_labels"]
+    hide_conf = result.get("hide_conf") or yolov8_config["hide_conf"]
+    classes = result.get("classes") or yolov8_config["classes"]
+
     yolov8_config["weights"] = weights
     yolov8_config["imgsz"] = imgsz
     yolov8_config["conf_thres"] = conf_thres
@@ -171,6 +186,7 @@ def yolov57_configuration():
     yolov8_config["line_thickness"] = line_thickness
     yolov8_config["hide_labels"] = hide_labels
     yolov8_config["hide_conf"] = hide_conf
+    yolov8_config["classes"] = classes
     return redirect(url_for('index'))
 
 # ...
@@ -297,7 +313,9 @@ def detect():
                           device=yx_c["device"], tsize=int(yx_c["tsize"]))
             else:
                 print("Defect detection using default parameters")
-                if result_model["model_type"] == "YOLOv5":
+                if result_model["model_type"] in ("EfficientNet-YOLOv8", "YOLOv8-EfficientNet"):
+                    run_yolov_5_7(source=upload_file_path, yolo_version=8)
+                elif result_model["model_type"] == "YOLOv5":
                     run_yolov_5_7(source=upload_file_path, yolo_version=5)
                 elif result_model["model_type"] == "YOLOX":
                     run_yolox(path=upload_file_path)
@@ -305,8 +323,6 @@ def detect():
                     run_faster_rcnn(source=upload_file_path)
                 elif result_model["model_type"] == "YOLOv7":
                     run_yolov_5_7(source=upload_file_path, yolo_version=7)
-                elif result_model["model_type"] == "YOLOv8":  # Added this line
-                    run_yolov_5_7(source=upload_file_path, yolo_version=8)  # Changed yolo_version to 8
                 else:
                     run_yolov_5_7(source=upload_file_path, yolo_version=7)
             # while os.path.getsize('./inference/output/identify_image.txt') == 0:  # identify_image.txt中保存了图像检测结构的保存路径
