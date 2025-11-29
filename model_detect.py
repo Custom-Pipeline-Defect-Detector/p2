@@ -103,6 +103,11 @@ def run_yolov_5_7(
             weights = ROOT / 'runs/train126/weights/best.pt'
     save_path = " "
 
+    if yolo_version == 8:
+        weights = ROOT / 'runs/train126/weights/last.pt'
+    else:
+        weights = ROOT / 'runs/train126/weights/best.pt'
+
     source = str(source)
     print("source:",source)
     save_img = not nosave and not source.endswith('.txt')  # save inference images
