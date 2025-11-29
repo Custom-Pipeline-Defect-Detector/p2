@@ -1,0 +1,19 @@
+description: Ultralytics YOLOv8x model trained on config.yaml
+author: Ultralytics
+date: '2024-07-22T16:12:19.337777'
+version: 8.2.24
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Deformation
+  1: Obstacle
+  2: Rupture
+  3: Disconnect
+  4: Misalignment
+  5: Deposition

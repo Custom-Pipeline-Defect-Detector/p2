@@ -1,0 +1,3945 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "http://www.w3.org/2002/07/owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.43",
+      "translation": [
+        470.32,
+        345.17
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "1"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "79",
+      "type": "owl:Class"
+    },
+    {
+      "id": "57",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "129",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "152",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "153",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "125",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "156",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "157",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "70",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "155",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "85",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "83",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "67",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "65",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "64",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "87",
+      "type": "owl:Class"
+    },
+    {
+      "id": "190",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "141",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "81",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "21",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "120",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "160",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "127",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "165",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "189",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "73",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_generalSoillayer",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_generalSoillayer"
+      },
+      "comment": {
+        "undefined": "一般土层或F = 0"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_generalSoillayer",
+          "labels": {
+            "IRI-based": "ind_generalSoillayer"
+          }
+        }
+      ],
+      "pos": [
+        443.3,
+        1614.48
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Remnant_wall_and_dam_root",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Remnant_wall_and_dam_root"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        669.89,
+        -765.59
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Obstacle",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Obstacle"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1336.37,
+        -477.48
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_OtherArea",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_OtherArea"
+      },
+      "comment": {
+        "undefined": "其他区域"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_OtherArea",
+          "labels": {
+            "IRI-based": "ind_OtherArea"
+          }
+        }
+      ],
+      "pos": [
+        -641.12,
+        712.23
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#Structural_defects",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Structural_defects"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Slight_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Serious_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Deformation",
+          "labels": {
+            "IRI-based": "ind_Serious_Deformation"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Major_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Misalignment",
+          "labels": {
+            "IRI-based": "ind_Serious_Misalignment"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Moderate_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Polie",
+          "labels": {
+            "IRI-based": "ind_Serious_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Polie",
+          "labels": {
+            "IRI-based": "ind_Slight_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Polie",
+          "labels": {
+            "IRI-based": "ind_Major_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Misalignment",
+          "labels": {
+            "IRI-based": "ind_Major_Misalignment"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Deformation",
+          "labels": {
+            "IRI-based": "ind_Moderate_Deformation"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Misalignment",
+          "labels": {
+            "IRI-based": "ind_Slight_Misalignment"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Polie",
+          "labels": {
+            "IRI-based": "ind_Moderate_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Deformation",
+          "labels": {
+            "IRI-based": "ind_Major_Deformation"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_slight_Deformation",
+          "labels": {
+            "IRI-based": "ind_slight_Deformation"
+          }
+        }
+      ],
+      "pos": [
+        1869.9,
+        354.83
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Rupture",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Rupture"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Polie",
+          "labels": {
+            "IRI-based": "ind_Serious_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Polie",
+          "labels": {
+            "IRI-based": "ind_Slight_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Polie",
+          "labels": {
+            "IRI-based": "ind_Major_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Polie",
+          "labels": {
+            "IRI-based": "ind_Moderate_Polie"
+          }
+        }
+      ],
+      "pos": [
+        2171.2,
+        69.43
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Deposition",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Deposition"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1138.18,
+        -284.18
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_mainPipe",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_mainPipe"
+      },
+      "pos": [
+        63.91,
+        245.76
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#Pipe",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Pipe"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image7",
+          "labels": {
+            "IRI-based": "image7"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image6",
+          "labels": {
+            "IRI-based": "image6"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image5",
+          "labels": {
+            "IRI-based": "image5"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image4",
+          "labels": {
+            "IRI-based": "image4"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#000002.img",
+          "labels": {
+            "IRI-based": "000002.img"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image3",
+          "labels": {
+            "IRI-based": "image3"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image2",
+          "labels": {
+            "IRI-based": "image2"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image1",
+          "labels": {
+            "IRI-based": "image1"
+          }
+        }
+      ],
+      "pos": [
+        292.33,
+        586.83
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Structure",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Structure"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1298.81,
+        -810.51
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#PipeType",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "PipeType"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_In600to1000mm",
+          "labels": {
+            "IRI-based": "ind_In600to1000mm"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Les600mm",
+          "labels": {
+            "IRI-based": "ind_Les600mm"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_bey1500mm",
+          "labels": {
+            "IRI-based": "ind_bey1500mm"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_In1000to1500mm",
+          "labels": {
+            "IRI-based": "ind_In1000to1500mm"
+          }
+        }
+      ],
+      "pos": [
+        827.91,
+        915.53
+      ]
+    },
+    {
+      "id": "59",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Deformation",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Deformation"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Deformation",
+          "labels": {
+            "IRI-based": "ind_Moderate_Deformation"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Deformation",
+          "labels": {
+            "IRI-based": "ind_Serious_Deformation"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Deformation",
+          "labels": {
+            "IRI-based": "ind_Major_Deformation"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_slight_Deformation",
+          "labels": {
+            "IRI-based": "ind_slight_Deformation"
+          }
+        }
+      ],
+      "pos": [
+        2273.17,
+        397
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_interfaceMaterial",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_interfaceMaterial"
+      },
+      "pos": [
+        523.15,
+        239.3
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Foreign_body_penetration",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Foreign_body_penetration"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        2128.71,
+        665.38
+      ]
+    },
+    {
+      "id": "74",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Corrosion",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Corrosion"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        883.13,
+        -290.9
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#Phenomenon",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "Phenomenon"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_BrokNoFallingoff",
+          "labels": {
+            "IRI-based": "ind_BrokNoFallingoff"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_littlesoilSqueeze",
+          "labels": {
+            "IRI-based": "ind_littlesoilSqueeze"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_slightshedding",
+          "labels": {
+            "IRI-based": "ind_slightshedding"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_LitsedimentIncracks",
+          "labels": {
+            "IRI-based": "ind_LitsedimentIncracks"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Finecracks",
+          "labels": {
+            "IRI-based": "ind_Finecracks"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Les60ofCirCover",
+          "labels": {
+            "IRI-based": "ind_Les60ofCirCover"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Bey60ofCirCover",
+          "labels": {
+            "IRI-based": "ind_Bey60ofCirCover"
+          }
+        }
+      ],
+      "pos": [
+        379.68,
+        97.08
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Uneven",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Uneven"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1633.62,
+        26.44
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Branch_pipe_hidden_connection",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Branch_pipe_hidden_connection"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1487.4,
+        260.14
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_les600mm",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_les600mm"
+      },
+      "comment": {
+        "undefined": "D < 600mm 或 F < 4"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Les600mm",
+          "labels": {
+            "IRI-based": "ind_Les600mm"
+          }
+        }
+      ],
+      "pos": [
+        1207.1,
+        1099.4
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_bey1500mm",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_bey1500mm"
+      },
+      "comment": {
+        "undefined": "管径超过1500mm"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_bey1500mm",
+          "labels": {
+            "IRI-based": "ind_bey1500mm"
+          }
+        }
+      ],
+      "pos": [
+        1121.61,
+        1225.92
+      ]
+    },
+    {
+      "id": "61",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Misalignment",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Misalignment"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Misalignment",
+          "labels": {
+            "IRI-based": "ind_Major_Misalignment"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Misalignment",
+          "labels": {
+            "IRI-based": "ind_Slight_Misalignment"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Misalignment",
+          "labels": {
+            "IRI-based": "ind_Serious_Misalignment"
+          }
+        }
+      ],
+      "pos": [
+        1808.83,
+        -69.44
+      ]
+    },
+    {
+      "id": "79",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_collapsedLoess",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_collapsedLoess"
+      },
+      "comment": {
+        "undefined": "湿陷性黄土"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_collapsedLoess",
+          "labels": {
+            "IRI-based": "ind_collapsedLoess"
+          }
+        }
+      ],
+      "pos": [
+        271.64,
+        1628.15
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Interface_material_falls_off",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Interface_material_falls_off"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1596.83,
+        636.94
+      ]
+    },
+    {
+      "id": "93",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_powderSandlayer",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_powderSandlayer"
+      },
+      "comment": {
+        "undefined": "粉砂层"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_powderSandlayer",
+          "labels": {
+            "IRI-based": "ind_powderSandlayer"
+          }
+        }
+      ],
+      "pos": [
+        96.51,
+        1565.89
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#Functional_defects",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Functional_defects"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1002.3,
+        -619.58
+      ]
+    },
+    {
+      "id": "91",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_muckySoil",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_muckySoil"
+      },
+      "comment": {
+        "undefined": "淤泥类土"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_muckySoil",
+          "labels": {
+            "IRI-based": "ind_muckySoil"
+          }
+        }
+      ],
+      "pos": [
+        670.34,
+        1410.83
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_pipeInterface",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_pipeInterface"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image7",
+          "labels": {
+            "IRI-based": "image7"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image6",
+          "labels": {
+            "IRI-based": "image6"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image5",
+          "labels": {
+            "IRI-based": "image5"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image4",
+          "labels": {
+            "IRI-based": "image4"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image3",
+          "labels": {
+            "IRI-based": "image3"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image2",
+          "labels": {
+            "IRI-based": "image2"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#image1",
+          "labels": {
+            "IRI-based": "image1"
+          }
+        }
+      ],
+      "pos": [
+        730.84,
+        546.08
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Structural_Corrosion",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Structural_Corrosion"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Polie",
+          "labels": {
+            "IRI-based": "ind_Serious_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Polie",
+          "labels": {
+            "IRI-based": "ind_Slight_Polie"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Polie",
+          "labels": {
+            "IRI-based": "ind_Moderate_Polie"
+          }
+        }
+      ],
+      "pos": [
+        1784.91,
+        773.25
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_redClay",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_redClay"
+      },
+      "comment": {
+        "undefined": "红粘土"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_redClay",
+          "labels": {
+            "IRI-based": "ind_redClay"
+          }
+        }
+      ],
+      "pos": [
+        578.46,
+        1543.43
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_CentralCommercialArea",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_CentralCommercialArea"
+      },
+      "comment": {
+        "undefined": "中心商业区域"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_CentralCommercialArea",
+          "labels": {
+            "IRI-based": "ind_CentralCommercialArea"
+          }
+        }
+      ],
+      "pos": [
+        -561.94,
+        488.47
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_Tubewall",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_Tubewall"
+      },
+      "pos": [
+        -105.96,
+        544.56
+      ]
+    },
+    {
+      "id": "129",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "151",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "152",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -211.78,
+        -78.79
+      ]
+    },
+    {
+      "id": "153",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "integer"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -113.25,
+        -218.12
+      ]
+    },
+    {
+      "id": "125",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_swellingSoil",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_swellingSoil"
+      },
+      "comment": {
+        "undefined": "膨胀土"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_swellingSoil",
+          "labels": {
+            "IRI-based": "ind_swellingSoil"
+          }
+        }
+      ],
+      "pos": [
+        -45.85,
+        1410.62
+      ]
+    },
+    {
+      "id": "105",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Tree_stump",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Tree_stump"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        917.19,
+        -960.19
+      ]
+    },
+    {
+      "id": "156",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_branchPipe",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_branchPipe"
+      },
+      "pos": [
+        -68.37,
+        381.08
+      ]
+    },
+    {
+      "id": "157",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "155",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#Region",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "Region"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_trafficTrunkArea",
+          "labels": {
+            "IRI-based": "ind_trafficTrunkArea"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_OtherArea",
+          "labels": {
+            "IRI-based": "ind_OtherArea"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_RoadArea",
+          "labels": {
+            "IRI-based": "ind_RoadArea"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_CentralCommercialArea",
+          "labels": {
+            "IRI-based": "ind_CentralCommercialArea"
+          }
+        }
+      ],
+      "pos": [
+        -239.19,
+        738.81
+      ]
+    },
+    {
+      "id": "76",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "85",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Leakage",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Leakage"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1989.33,
+        -36.91
+      ]
+    },
+    {
+      "id": "55",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7#cls_Disconnect",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/untitled-ontology-7",
+      "label": {
+        "IRI-based": "cls_Disconnect"
+      },
+      "attributes": [
+        "external"
+      ],
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Slight_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Slight_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Moderate_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Moderate_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Serious_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Serious_Disconnect"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_Major_Disconnect",
+          "labels": {
+            "IRI-based": "ind_Major_Disconnect"
+          }
+        }
+      ],
+      "pos": [
+        1961.47,
+        777.6
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_In1000to1500mm",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_In1000to1500mm"
+      },
+      "comment": {
+        "undefined": "1000mm < D < 1500mm"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_In1000to1500mm",
+          "labels": {
+            "IRI-based": "ind_In1000to1500mm"
+          }
+        }
+      ],
+      "pos": [
+        991.42,
+        1303.94
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_In600to1000mm",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_In600to1000mm"
+      },
+      "comment": {
+        "undefined": "600mm <= D <=1000mm"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_In600to1000mm",
+          "labels": {
+            "IRI-based": "ind_In600to1000mm"
+          }
+        }
+      ],
+      "pos": [
+        1230.05,
+        909.7
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_trafficTrunkArea",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_trafficTrunkArea"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_trafficTrunkArea",
+          "labels": {
+            "IRI-based": "ind_trafficTrunkArea"
+          }
+        }
+      ],
+      "pos": [
+        -391.49,
+        1107.61
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#SoilProperty",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "SoilProperty"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_muckySoil",
+          "labels": {
+            "IRI-based": "ind_muckySoil"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_powderSandlayer",
+          "labels": {
+            "IRI-based": "ind_powderSandlayer"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_swellingSoil",
+          "labels": {
+            "IRI-based": "ind_swellingSoil"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_redClay",
+          "labels": {
+            "IRI-based": "ind_redClay"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_generalSoillayer",
+          "labels": {
+            "IRI-based": "ind_generalSoillayer"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_collapsedLoess",
+          "labels": {
+            "IRI-based": "ind_collapsedLoess"
+          }
+        }
+      ],
+      "pos": [
+        308.8,
+        1208.81
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "87",
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "pos": [
+        38.88,
+        35.47
+      ]
+    },
+    {
+      "id": "190",
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "pos": [
+        559.93,
+        876.95
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "141",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        626.58,
+        369.21
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        405.21,
+        -284.4
+      ]
+    },
+    {
+      "id": "120",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "160",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#cls_RoadArea",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "cls_RoadArea"
+      },
+      "comment": {
+        "undefined": "其他行车道路区域"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#ind_RoadArea",
+          "labels": {
+            "IRI-based": "ind_RoadArea"
+          }
+        }
+      ],
+      "pos": [
+        -569.45,
+        965.53
+      ]
+    },
+    {
+      "id": "127",
+      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "double"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "165",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "189",
+      "iri": "http://www.w3.org/2001/XMLSchema#decimal",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "decimal"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        48.38,
+        -255.16
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "int"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "3",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "10",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "12",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "14",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "23",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "39",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "43",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "45",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "47",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "49",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "52",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "54",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "56",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "58",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "63",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "69",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "72",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "75",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "77",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "78",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "80",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "82",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "84",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "86",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "88",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "90",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "92",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "94",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "95",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "96",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "97",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "98",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "99",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "100",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "101",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "102",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "103",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "104",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "106",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "107",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "108",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "109",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "112",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "113",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "114",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "115",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "116",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "117",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "118",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "119",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "121",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "122",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "123",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "124",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "126",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "128",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "130",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "131",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "132",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "133",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "134",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "135",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "136",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "137",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "138",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "139",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "140",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "142",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "143",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "144",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "145",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "146",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "147",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "148",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "149",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "150",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "154",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "158",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "159",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "161",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "162",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "163",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "164",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "166",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "167",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "168",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "169",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "170",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "171",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "172",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "173",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "174",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "175",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "176",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "177",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "178",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "179",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "180",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "181",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "182",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "183",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "184",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "185",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "186",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "187",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "188",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "191",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "192",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "193",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "194",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "195",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "GENERATED-UNION-87-152-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-87-153-1",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-87-189-2",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-190-25-0",
+      "type": "setOperatorProperty"
+    },
+    {
+      "id": "GENERATED-UNION-190-24-1",
+      "type": "setOperatorProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "2",
+      "pos": [
+        -316.74,
+        926.6
+      ]
+    },
+    {
+      "id": "3",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "2",
+      "pos": [
+        -407.34,
+        854.25
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "2",
+      "pos": [
+        -443.81,
+        725.28
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "9",
+      "pos": [
+        977.28,
+        1073.39
+      ]
+    },
+    {
+      "id": "10",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "9",
+      "pos": [
+        1032.65,
+        912.56
+      ]
+    },
+    {
+      "id": "12",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "9",
+      "pos": [
+        1020.8,
+        1009.06
+      ]
+    },
+    {
+      "id": "14",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "15",
+      "range": "9",
+      "pos": [
+        911.09,
+        1113.11
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "18",
+      "pos": [
+        446.77,
+        1380.02
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_causedBy",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_causedBy"
+      },
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "domain": "21",
+      "range": "22",
+      "inverse": "195",
+      "pos": [
+        393.84,
+        -114.43
+      ]
+    },
+    {
+      "id": "23",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "25",
+      "pos": [
+        512.06,
+        566.41
+      ]
+    },
+    {
+      "id": "26",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "27",
+      "range": "2",
+      "pos": [
+        -403.46,
+        611.39
+      ]
+    },
+    {
+      "id": "30",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "32",
+      "pos": [
+        2008.01,
+        520.54
+      ]
+    },
+    {
+      "id": "33",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "32",
+      "pos": [
+        1826.3,
+        569.47
+      ]
+    },
+    {
+      "id": "35",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "36",
+      "range": "32",
+      "pos": [
+        2023.93,
+        208.93
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "32",
+      "pos": [
+        1743.82,
+        179.6
+      ]
+    },
+    {
+      "id": "39",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "40",
+      "range": "32",
+      "pos": [
+        1933.58,
+        145.96
+      ]
+    },
+    {
+      "id": "41",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "42",
+      "range": "25",
+      "pos": [
+        171.84,
+        406.92
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_scoreRupture",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_scoreRupture"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "44"
+    },
+    {
+      "id": "45",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "46",
+      "range": "25",
+      "pos": [
+        413.99,
+        403.66
+      ]
+    },
+    {
+      "id": "47",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "48",
+      "range": "25",
+      "pos": [
+        102.18,
+        478.36
+      ]
+    },
+    {
+      "id": "49",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "50",
+      "range": "25",
+      "pos": [
+        81.96,
+        564.51
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_gradeMisalignment",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_gradeMisalignment"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "53"
+    },
+    {
+      "id": "54",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "32",
+      "pos": [
+        1916.67,
+        570.76
+      ]
+    },
+    {
+      "id": "56",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "32",
+      "pos": [
+        1723.91,
+        505.65
+      ]
+    },
+    {
+      "id": "58",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "32",
+      "pos": [
+        2076.17,
+        376.4
+      ]
+    },
+    {
+      "id": "60",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "32",
+      "pos": [
+        1838.58,
+        137.21
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.w3.org/2002/07/owl#topDataProperty",
+      "baseIri": "http://www.w3.org/2002/07/owl",
+      "label": {
+        "IRI-based": "topDataProperty"
+      },
+      "attributes": [
+        "datatype",
+        "external"
+      ],
+      "domain": "64",
+      "range": "65"
+    },
+    {
+      "id": "66",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_deformArea",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_deformArea"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "变形范围"
+      },
+      "domain": "25",
+      "range": "67"
+    },
+    {
+      "id": "69",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_score",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_score"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "70"
+    },
+    {
+      "id": "72",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_gradeRupture",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_gradeRupture"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "73"
+    },
+    {
+      "id": "75",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_thicknessOfTubewall",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_thicknessOfTubewall"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "管壁厚度"
+      },
+      "domain": "25",
+      "range": "76"
+    },
+    {
+      "id": "77",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "18",
+      "pos": [
+        377.63,
+        1416.4
+      ]
+    },
+    {
+      "id": "78",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "79",
+      "range": "18",
+      "pos": [
+        289.78,
+        1423.47
+      ]
+    },
+    {
+      "id": "80",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_hasDefects",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_hasDefects"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "81",
+      "pos": [
+        477.3,
+        466.41
+      ]
+    },
+    {
+      "id": "82",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_scoreDeformation",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_scoreDeformation"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "83"
+    },
+    {
+      "id": "84",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_scorePolie",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_scorePolie"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "85"
+    },
+    {
+      "id": "86",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_diameter",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_diameter"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "87",
+      "pos": [
+        160.89,
+        300.89
+      ]
+    },
+    {
+      "id": "88",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "89",
+      "range": "18",
+      "pos": [
+        127.12,
+        1312.19
+      ]
+    },
+    {
+      "id": "90",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "91",
+      "range": "18",
+      "pos": [
+        493.94,
+        1312.26
+      ]
+    },
+    {
+      "id": "92",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "93",
+      "range": "18",
+      "pos": [
+        200.09,
+        1391.66
+      ]
+    },
+    {
+      "id": "94",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "40"
+    },
+    {
+      "id": "95",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "38"
+    },
+    {
+      "id": "96",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "34"
+    },
+    {
+      "id": "97",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "40"
+    },
+    {
+      "id": "98",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "31"
+    },
+    {
+      "id": "99",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "36"
+    },
+    {
+      "id": "100",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "31"
+    },
+    {
+      "id": "101",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "36"
+    },
+    {
+      "id": "102",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "55"
+    },
+    {
+      "id": "103",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "38"
+    },
+    {
+      "id": "104",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "34"
+    },
+    {
+      "id": "106",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "55"
+    },
+    {
+      "id": "107",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "31"
+    },
+    {
+      "id": "108",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "40"
+    },
+    {
+      "id": "109",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_gradeDisconnect",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_gradeDisconnect"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "110"
+    },
+    {
+      "id": "111",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "36"
+    },
+    {
+      "id": "112",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "59"
+    },
+    {
+      "id": "113",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "38"
+    },
+    {
+      "id": "114",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "34"
+    },
+    {
+      "id": "115",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "31"
+    },
+    {
+      "id": "116",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "59",
+      "range": "40"
+    },
+    {
+      "id": "117",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "59"
+    },
+    {
+      "id": "118",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "68"
+    },
+    {
+      "id": "119",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_gradePolie",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_gradePolie"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "120"
+    },
+    {
+      "id": "121",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "71",
+      "range": "68"
+    },
+    {
+      "id": "122",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "68",
+      "range": "28"
+    },
+    {
+      "id": "123",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_hasSoilproperty",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_hasSoilproperty"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "18",
+      "pos": [
+        300.59,
+        898.82
+      ]
+    },
+    {
+      "id": "124",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_gradeDeformation",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_gradeDeformation"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "125"
+    },
+    {
+      "id": "126",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_scoreDisconnect",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_scoreDisconnect"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "127"
+    },
+    {
+      "id": "128",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_hasArclength",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_hasArclength"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "弧长"
+      },
+      "domain": "25",
+      "range": "129"
+    },
+    {
+      "id": "130",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "74",
+      "range": "28"
+    },
+    {
+      "id": "131",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "74"
+    },
+    {
+      "id": "132",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "74"
+    },
+    {
+      "id": "133",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "71",
+      "range": "74"
+    },
+    {
+      "id": "134",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "36"
+    },
+    {
+      "id": "135",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "36"
+    },
+    {
+      "id": "136",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "74",
+      "range": "68"
+    },
+    {
+      "id": "137",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "38"
+    },
+    {
+      "id": "138",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "38"
+    },
+    {
+      "id": "139",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "34"
+    },
+    {
+      "id": "140",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_haslateralDeviofNozzle",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_haslateralDeviofNozzle"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "管口横向偏差距离"
+      },
+      "domain": "25",
+      "range": "141"
+    },
+    {
+      "id": "142",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "36"
+    },
+    {
+      "id": "143",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "40",
+      "range": "36"
+    },
+    {
+      "id": "144",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "40"
+    },
+    {
+      "id": "145",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "40"
+    },
+    {
+      "id": "146",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "40"
+    },
+    {
+      "id": "147",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "36"
+    },
+    {
+      "id": "148",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "61"
+    },
+    {
+      "id": "149",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "38"
+    },
+    {
+      "id": "150",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "34"
+    },
+    {
+      "id": "154",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_has_T",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_has_T"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "土质影响Parameter"
+      },
+      "domain": "25",
+      "range": "155"
+    },
+    {
+      "id": "158",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "32",
+      "range": "29"
+    },
+    {
+      "id": "159",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_grade",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_grade"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "160"
+    },
+    {
+      "id": "161",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_has_K",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_has_K"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "地区重要性Parameter"
+      },
+      "domain": "25",
+      "range": "156"
+    },
+    {
+      "id": "162",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "28"
+    },
+    {
+      "id": "163",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "71",
+      "range": "28"
+    },
+    {
+      "id": "164",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_has_E",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_has_E"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "管道重要性Parameter"
+      },
+      "domain": "25",
+      "range": "165"
+    },
+    {
+      "id": "166",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "71"
+    },
+    {
+      "id": "167",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "28"
+    },
+    {
+      "id": "168",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "68"
+    },
+    {
+      "id": "169",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "51"
+    },
+    {
+      "id": "170",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "71"
+    },
+    {
+      "id": "171",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "68",
+      "range": "29",
+      "pos": [
+        1070.24,
+        -451.88
+      ]
+    },
+    {
+      "id": "172",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "71",
+      "range": "29",
+      "pos": [
+        1150.55,
+        -715.04
+      ]
+    },
+    {
+      "id": "173",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "32",
+      "pos": [
+        1665.46,
+        304.22
+      ]
+    },
+    {
+      "id": "174",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "74",
+      "range": "29",
+      "pos": [
+        942.72,
+        -455.24
+      ]
+    },
+    {
+      "id": "175",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "28",
+      "range": "29",
+      "pos": [
+        836.1,
+        -692.58
+      ]
+    },
+    {
+      "id": "176",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "29",
+      "pos": [
+        1169.34,
+        -548.53
+      ]
+    },
+    {
+      "id": "177",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_hasPhenomenon",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_hasPhenomenon"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "22",
+      "pos": [
+        336.09,
+        341.49
+      ]
+    },
+    {
+      "id": "178",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "29",
+      "pos": [
+        959.74,
+        -789.88
+      ]
+    },
+    {
+      "id": "179",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "31"
+    },
+    {
+      "id": "180",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "57",
+      "range": "62"
+    },
+    {
+      "id": "181",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "40"
+    },
+    {
+      "id": "182",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "61",
+      "range": "62"
+    },
+    {
+      "id": "183",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "36"
+    },
+    {
+      "id": "184",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "34"
+    },
+    {
+      "id": "185",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "38"
+    },
+    {
+      "id": "186",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "55",
+      "range": "59"
+    },
+    {
+      "id": "187",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "59"
+    },
+    {
+      "id": "188",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "55"
+    },
+    {
+      "id": "191",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_locatedIn",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_locatedIn"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "2",
+      "pos": [
+        24.31,
+        663.47
+      ]
+    },
+    {
+      "id": "192",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_scoreMisalignment",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_scoreMisalignment"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "25",
+      "range": "151"
+    },
+    {
+      "id": "193",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_Belongto",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_Belongto"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "25",
+      "range": "9",
+      "pos": [
+        562.12,
+        752.41
+      ]
+    },
+    {
+      "id": "194",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_disjointDistance",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_disjointDistance"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "comment": {
+        "undefined": "脱节距离"
+      },
+      "domain": "190",
+      "range": "157"
+    },
+    {
+      "id": "195",
+      "iri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations#pty_cause",
+      "baseIri": "http://www.semanticweb.org/15533/ontologies/2021/9/Pipeline_regulations",
+      "label": {
+        "IRI-based": "pty_cause"
+      },
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "domain": "22",
+      "range": "21",
+      "inverse": "20"
+    },
+    {
+      "id": "GENERATED-UNION-87-152-0",
+      "domain": "87",
+      "range": "152",
+      "pos": [
+        -98.23,
+        -27.03
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-87-153-1",
+      "domain": "87",
+      "range": "153",
+      "pos": [
+        -47.04,
+        -107.76
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-87-189-2",
+      "domain": "87",
+      "range": "189",
+      "pos": [
+        44.29,
+        -129.83
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-190-25-0",
+      "domain": "190",
+      "range": "25",
+      "pos": [
+        433.78,
+        740.19
+      ]
+    },
+    {
+      "id": "GENERATED-UNION-190-24-1",
+      "domain": "190",
+      "range": "24",
+      "pos": [
+        640.42,
+        721.13
+      ]
+    }
+  ]
+}
