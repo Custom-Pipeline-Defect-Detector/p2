@@ -357,21 +357,31 @@ def detect():
 def get_repairAdvice():
     global advice_list, index_version
     i = request.args.get("i")
-    excel_path = glob.glob("static/output/exp" + i + "/*.xls")
+    exp_dir = None
+    excel_path = []
+
+    try:
+        if i and identify_images:
+            target_image = identify_images[int(i) - 1]
+            exp_dir = os.path.dirname(target_image)
+            excel_path = glob.glob(os.path.join(exp_dir, "*.xls"))
+    except (IndexError, ValueError, TypeError):
+        exp_dir = None
+
     print("excel_path", excel_path)
     # 中英文版本切换
     if index_version == "index_cn.html":
         if excel_path:  # 正常通过提取公式 Deformation
             # 取出推理得到的Parameter
-            jpype_run_drools(excel_path[0], "static/output/exp" + i + "/")
-            while os.path.exists("./static/output/exp" + i + "/drools.txt") == False:
+            jpype_run_drools(excel_path[0], exp_dir + "/")
+            while os.path.exists(exp_dir + "/drools.txt") == False:
                 pass
-            if os.path.exists("./static/output/exp" + i + "/drools.txt") == False:
+            if os.path.exists(exp_dir + "/drools.txt") == False:
                 return render_template("index_cn.html", upload_files_path=upload_files_path,
                                        identify_images=identify_images)
-            while os.path.getsize("./static/output/exp" + i + "/drools.txt") == 0:
+            while os.path.getsize(exp_dir + "/drools.txt") == 0:
                 pass
-            file_object = open("./static/output/exp" + i + "/drools.txt", 'r+', encoding='UTF-8')
+            file_object = open(exp_dir + "/drools.txt", 'r+', encoding='UTF-8')
             try:
                 advice_list = []
                 temp_dict = {}
@@ -445,15 +455,15 @@ def get_repairAdvice():
 
     elif index_version == "index_en.html":
         if excel_path:
-            jpype_run_drools(excel_path[0], "static/output/exp" + i + "/")
-            while os.path.exists("./static/output/exp" + i + "/drools.txt") == False:
+            jpype_run_drools(excel_path[0], exp_dir + "/")
+            while os.path.exists(exp_dir + "/drools.txt") == False:
                 pass
-            if os.path.exists("./static/output/exp" + i + "/drools.txt") == False:
+            if os.path.exists(exp_dir + "/drools.txt") == False:
                 return render_template("index_cn.html", upload_files_path=upload_files_path,
                                        identify_images=identify_images)
-            while os.path.getsize("./static/output/exp" + i + "/drools.txt") == 0:
+            while os.path.getsize(exp_dir + "/drools.txt") == 0:
                 pass
-            file_object = open("./static/output/exp" + i + "/drools.txt", 'r+', encoding='UTF-8')
+            file_object = open(exp_dir + "/drools.txt", 'r+', encoding='UTF-8')
             try:
                 advice_list = []
                 temp_dict = {}
